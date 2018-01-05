@@ -85,7 +85,7 @@ h2 {
 
 .banner-text {
   width: 40%;
-  margin-left:1.5rem;
+  margin:0 2.5rem 0 1.5rem;
   color: hsl(0, 0%, 29%);
 }
 
@@ -132,6 +132,16 @@ h2 {
   font-size: 2rem;
 }
 
+.main-info p {
+  font-size: 0.85rem;
+  line-height: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.caption {
+  font-family: 'Roboto', sans-serif;
+}
+
 .side-info {
   width: 40%;
 }
@@ -145,13 +155,31 @@ h2 {
 
 .side-info .img-box {
   width: 35%;
+
 }
 
 .side-info img {
   width: 100%;
+  min-width: 3rem;
   height: auto;
 }
 
 .side-info .info-text {
+  margin-left: 1rem;
+}
 
+.side-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.side-info p {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.side-info a {
+  font-size: 1rem;
+  color: hsl(220, 100%, 75%);
 }
