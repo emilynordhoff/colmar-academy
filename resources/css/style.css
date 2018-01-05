@@ -113,6 +113,11 @@ h2 {
   padding-top: 2rem;
 }
 
+.details .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-info {
   width: 60%;
   margin-right: 1.5rem;
@@ -124,4 +129,29 @@ h2 {
 
 .main-info h2 {
   margin: 2rem 0 1.5rem 0;
+  font-size: 2rem;
+}
+
+.side-info {
+  width: 40%;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid hsl(0, 0%, 85%);
+}
+
+.side-info .img-box {
+  width: 35%;
+}
+
+.side-info img {
+  width: 100%;
+  height: auto;
+}
+
+.side-info .info-text {
+
 }
