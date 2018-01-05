@@ -5,22 +5,23 @@
     <title>Colmar Academy</title>
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:400,700,600|Nunito+Sans:400,700|Roboto:400,700|Work+Sans:400,600,700" rel="stylesheet">
   </head>
   <body>
     <!--HEADER-->
     <header>
       <div class="container heading">
-        <div class="logo">
-          <img src="resources/images/ic-logo.svg" />
-          <span class="company1">Colmar</span> <!--trailing comment...-->
-          <span class="company2">Academy</span>
+        <div class="company">
+          <img src="resources/images/ic-logo.svg" class="logo"/>
+          <span id="company-1">Colmar</span> <!--trailing comment...-->
+          <span id="company-2">Academy</span>
         </div>
         <nav>
-          <ul>
-            <li>On Campus </li>
-            <li>Online </li>
-            <li>For Companies </li>
-            <li>Sign In </li>
+          <ul class="nav-desktop">
+            <li> <a href="#">On Campus</a></li>
+            <li> <a href="#">Online</a></li>
+            <li> <a href="#">For Companies</a></li>
+            <li> <a href="#">Sign In</a></li>
           </ul>
         </nav>
       </div>
@@ -34,13 +35,24 @@
         <div class="banner-text">
           <h2>Learn something new everyday </h2>
           <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h3>
-          <span class="btn">Start here </span>
+          <p class="btn">Start here </p>
         </div>
       </div>
     </div>
     <!--SUPPORTING LINKS-->
-    <div>
+    <div class="details">
       <div class="container">
+        <div class="main-info">
+          <div class="img-box">
+            <img src ="resources/images/information-main.jpg" />
+          </div>
+          <h2>It doesn't hurt to keep practicing </h2>
+          <h3>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</h3>
+          <p class="caption">Emanuel, Sr Strategist at Hiring.com </p>
+        </div>
+        <div class="side-info">
+
+        </div>
       </div>
     </div>
     <!--COURSE OFFERINGS-->
