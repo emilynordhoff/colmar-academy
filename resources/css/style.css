@@ -1,6 +1,9 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: hsl(0, 0%, 29%);
+  background-color: hsl(0, 0%, 96%);
 }
 
 .container {
@@ -19,7 +22,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 96%);
   align-items: center;
 }
 
@@ -42,13 +45,13 @@ h2 {
 #company-1 {
   font-weight: bold;
   color: hsl(0, 0%, 20%);
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 96%);
 }
 
 #company-2 {
   font-weight: normal;
   color: hsl(0, 0%, 70%);
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 96%);
 }
 
 .nav-desktop {
@@ -58,7 +61,7 @@ h2 {
 .nav-desktop a {
   font-family: 'Roboto', sans-serif;
   color: hsl(0, 0%, 30%);
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 96%);
   text-decoration: none;
   padding-right: 1rem;
 }
@@ -86,7 +89,6 @@ h2 {
 .banner-text {
   width: 40%;
   margin:0 2.5rem 0 1.5rem;
-  color: hsl(0, 0%, 29%);
 }
 
 .banner-text h2 {
@@ -109,8 +111,8 @@ h2 {
 
 .details {
   background-color: hsl(180, 9%, 96%);
-  color: hsl(0, 0%, 29%);
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .details .container {
@@ -136,17 +138,19 @@ h2 {
   font-size: 0.85rem;
   line-height: 1rem;
   margin-bottom: 1.5rem;
+  color: hsl(0, 0%, 50%);
 }
 
-.caption {
+#caption {
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
 }
 
 .side-info {
   width: 40%;
 }
 
-.info-box {
+.details .info-box {
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -155,13 +159,10 @@ h2 {
 
 .side-info .img-box {
   width: 35%;
-
 }
 
 .side-info img {
   width: 100%;
-  min-width: 3rem;
-  height: auto;
 }
 
 .side-info .info-text {
@@ -177,9 +178,174 @@ h2 {
 .side-info p {
   font-size: 0.85rem;
   margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 50%);
 }
 
 .side-info a {
   font-size: 1rem;
   color: hsl(220, 100%, 75%);
+  text-decoration: none;
+}
+
+.details .info-box:hover {
+  background-color: hsl(0, 0%, 85%);
+}
+
+/* COURSE OFFERINGS SECTION */
+
+.offerings {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.offerings .container {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.field {
+  width: 16rem;
+  margin: 1rem;
+  background-color: hsl(180, 9%, 96%);
+}
+
+.field .img-box {
+  width: 100%;
+  height: auto;
+}
+
+.field img {
+  width: 100%;
+  height: auto;
+}
+
+.field .info-text {
+  padding: 1rem;
+}
+
+.field .info-text h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.field .info-text p {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 50%);
+}
+
+/* THESIS EXHIBIT */
+
+.thesis {
+  background-color: hsl(180, 9%, 96%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thesis .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis-box {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.thesis-main {
+  width: 60%;
+  margin-right: 1.5rem;
+}
+
+.thesis-main video {
+  width: 100%;
+}
+
+.thesis-side {
+  width: 40%;
+}
+
+.thesis-side .info-box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.thesis-side .img-box {
+  width: 35%;
+}
+
+.thesis-side img {
+  width: 100%;
+}
+
+.thesis-side .info-text {
+  margin-left: 1rem;
+}
+
+.thesis h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.thesis-side p {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 50%);
+}
+
+.thesis .info-box:hover {
+  background-color: hsl(0, 0%, 85%);
+}
+
+.thesis-main p {
+  font-size: 0.85rem;
+  line-height: 1.15rem;
+  color: hsl(0, 0%, 50%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.thesis-main h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid hsl(0, 0%, 85%);
+  background-color: hsl(180, 9%, 96%);
+  color: hsl(0, 0%, 60%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  margin-right: 1.5rem;
+}
+
+footer a {
+  background-color: hsl(180, 9%, 96%);
+  color: hsl(0, 0%, 60%);
+  text-decoration: none;
+  padding-left: 1rem;
 }
